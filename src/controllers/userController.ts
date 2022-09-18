@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { sendError, sendResponse, sendSuccess, sendValidation } from '../utils/responseHandler'
+import { sendResponse, sendSuccess } from '../utils/responseHandler'
 
 const all = async (req: Request, res: Response) => {
   return sendResponse(res, 200, 'Hello World', 'Users retrieved successfully.')

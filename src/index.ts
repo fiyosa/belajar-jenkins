@@ -2,8 +2,8 @@ import express, { Application, Request, Response, NextFunction } from 'express'
 import bodyParser from 'body-parser'
 import routes from './config/routes'
 import { exceptionHandler, sendError } from './utils'
-import dotenv from 'dotenv'
-dotenv.config()
+// import dotenv from 'dotenv'
+// dotenv.config()
 
 const app: Application = express()
 const PORT: string | number = process.env.PORT || 4000

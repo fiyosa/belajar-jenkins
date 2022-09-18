@@ -1,6 +1,6 @@
-import { Application, Router } from 'express'
+import { Router } from 'express'
 import userController from '../controllers/userController'
-import { userPostRequest } from '../requests'
+// import { userPostRequest } from '../requests'
 
 const routes = Router()
 
